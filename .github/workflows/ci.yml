@@ -84,8 +84,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:${{ github.sha }}
-            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/panaki-gillot/hbtn-devops-pipeline-lab:${{ github.sha }}
+            ghcr.io/panaki-gillot/hbtn-devops-pipeline-lab:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
